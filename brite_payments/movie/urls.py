@@ -14,6 +14,6 @@ movie_detail = MovieViewSet.as_view({
 })
 
 urlpatterns = [
-    path('', movie_list, name='movie-list'),
+    path('', movie_list, name='movies-list'),
     path('<int:pk>/', movie_detail, name='movie-detail'),
 ]
