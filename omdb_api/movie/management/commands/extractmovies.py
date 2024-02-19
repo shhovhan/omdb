@@ -1,5 +1,4 @@
 import pandas as pd
-import requests
 
 from django.core.management.base import BaseCommand, CommandError
 from omdb_api.config import PREDEFINED_MOVIES_FILE
